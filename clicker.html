@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clicker Game</title>
+    <link rel="stylesheet" href="clicker.css">
+    <script src="clicker.js"></script>
+
+</head>
+
+<body>
+
+    <div class="left">
+        <h1>Score: <span id="score">0</span></h1>
+        <button onclick="incrementScore()">Clique moi !</button>
+    </div>
+
+    <div class="right">
+        <button onclick="buyUpgrade()">+1 point par clic (actuel : +<span id="increment">1</span>) - Coût : <span id="cost">10</span> points</button>
+    </div>
+
+
+
+</body>
+
+</html>
